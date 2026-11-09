@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Catalog intake: find new dfpc-coe ETLs, new release tags, and moved community pins.
+"""Catalog intake: find new dfpc-coe ETLs, new release tags, moved community pins, and entries
+that are listed but not reviewed.
 
 It only reports. It keeps one open issue titled "Catalog intake" up to date (or closes it when
 there is nothing to do). It has no signing key, so it can never change what a server installs:
@@ -81,6 +82,10 @@ def findings(cat):
                     out.append(f"- **MOVED** `{e['prefix']}` branch `{e['ref']}` is now `{head[:12]}` "
                                f"(pinned `{e['sha'][:12]}`) "
                                f"[diff](https://github.com/{e['source']}/compare/{e['sha']}...{head})")
+    for e in cat['entries']:
+        if not e.get('reviewed'):
+            out.append(f"- **UNREVIEWED** `{e['prefix']}` {e['version']} (listed, but servers refuse to install it "
+                       f"until it passes the security review)")
     return out
 
 
