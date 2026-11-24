@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "serial": 202611190517,
+  "serial": 202611232010,
   "entries": [
     {
       "prefix": "etl-active911",
@@ -601,13 +601,13 @@
       "name": "First Due",
       "description": "Ingests active CAD dispatches or AVL device locations from the First Due REST API - active dispatches are written to CloudTAK Events with their dispatched units as Assignments, AVL device locations are posted to the map.",
       "source": "dfpc-coe/etl-first-due",
-      "ref": "v1.5.0",
-      "sha": "70d42918384c69aa7c5b29aba714889ddabd4ce7",
-      "version": "1.5.0",
+      "ref": "v1.6.0",
+      "sha": "ce1d4552a70ee8c2d90584f06360c9bdae0f7bdc",
+      "version": "1.6.0",
       "author": "COE",
       "community": false,
       "logo": null,
-      "readme": "https://raw.githubusercontent.com/dfpc-coe/etl-first-due/70d42918384c69aa7c5b29aba714889ddabd4ce7/README.md",
+      "readme": "https://raw.githubusercontent.com/dfpc-coe/etl-first-due/ce1d4552a70ee8c2d90584f06360c9bdae0f7bdc/README.md",
       "repo_url": "https://github.com/dfpc-coe/etl-first-due",
       "compute": {
         "memory": 512,
@@ -621,7 +621,7 @@
         "installable": true
       },
       "has_capabilities": true,
-      "reviewed": "2026-11-17 /module-scan"
+      "reviewed": "2026-11-23 /module-scan"
     },
     {
       "prefix": "etl-inreach",
