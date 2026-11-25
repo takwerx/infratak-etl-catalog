@@ -1,10 +1,11 @@
 {
   "schema": 1,
   "kind": "takportal-verified",
-  "serial": 202611222349,
-  "tag": "2.0.40",
-  "commit": "f2a784f8aefd8d27e46fae0c9b18142f1f0fa1c0",
-  "gate": 1063,
-  "expires": "2027-02-20",
-  "held": []
+  "serial": 202611251051,
+  "tag": "2.0.42",
+  "commit": "f8b9e7914a4c4171b3ab1ebaef7ecd5a87d6c60e",
+  "gate": 1245,
+  "expires": "2027-02-23",
+  "held": [],
+  "marketplace_version": "1.0.7"
 }
