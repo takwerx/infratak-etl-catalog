@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "kind": "takserver-tested",
-  "serial": 202611242243,
-  "version": "5.8-RELEASE104",
-  "tested": "2026-11-24",
+  "serial": 202611250206,
+  "version": "5.8-RELEASE105",
+  "tested": "2026-11-25",
   "installs": true,
   "updates": true,
-  "evidence": "ops #1119, fresh install fi-20261123-122253, update fi-20261123-005028",
-  "expires": "2027-02-22"
+  "evidence": "ops #1119, fresh install fi-20261124-223343, update fi-20261125-012431",
+  "expires": "2027-02-23"
 }
